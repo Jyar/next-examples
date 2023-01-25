@@ -1,4 +1,5 @@
 import {
+  BookOpen,
   Laptop,
   LucideProps,
   Moon,
@@ -12,6 +13,7 @@ export type Icon = LucideIcon
 export const Icons = {
   sun: SunMedium,
   moon: Moon,
+  medium: BookOpen,
   laptop: Laptop,
   twitter: Twitter,
   logo: (props: LucideProps) => (

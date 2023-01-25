@@ -9,7 +9,7 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>Next.js</title>
+        <title>Next Examples</title>
         <meta
           name="description"
           content="Next.js template for building apps with Radix UI and Tailwind CSS"
