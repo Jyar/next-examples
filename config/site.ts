@@ -13,19 +13,27 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Next.js",
+  name: "Powered by Nextjs",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Beautifully designed components from Shadcn built with Radix UI and Tailwind CSS.",
   mainNav: [
     {
       title: "Home",
       href: "/",
     },
+    {
+      title: "Your Tree",
+      href: "/your-tree",
+    },
+    {
+      title: "Find a Service",
+      href: "/find-a-service",
+    },
   ],
   links: {
     twitter: "https://twitter.com/jycodes",
     github: "https://github.com/jyar",
-    medium: "https://medium/@jy.codes1",
+    medium: "https://medium.com/@jy.codes1",
     docs: "https://ui.shadcn.com",
   },
 }
